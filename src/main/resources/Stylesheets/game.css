@@ -1,0 +1,24 @@
+.square {
+    -fx-border-style: solid;
+    -fx-background-color: LightGray;
+}
+
+.selected {
+    -fx-background-color: Silver;
+}
+
+.selectable {
+    -fx-background-color: White;
+    -fx-border-width: 4;
+}
+
+.square:hover {
+    -fx-background-color: White;
+}
+.bg{
+    -fx-background-color: LightGreen;
+}
+.menu{
+    -fx-color: LightBlue;
+ }
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="menu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="460.0" styleClass="menu" stylesheets="@../Stylesheets/menu.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.Controllers.MenuController">
+   <children>
+      <TextField fx:id="player1" alignment="CENTER" layoutX="18.0" layoutY="84.0" promptText="BLUE" stylesheets="@../Stylesheets/menu.css">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <TextField fx:id="player2" alignment="CENTER" layoutX="260.0" layoutY="84.0" promptText="RED">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Button layoutX="146.0" layoutY="244.0" mnemonicParsing="false" onAction="#startGame" prefHeight="62.0" prefWidth="169.0" styleClass="start" text="START">
+         <font>
+            <Font name="Bauhaus 93" size="34.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="315.0" layoutY="375.0" mnemonicParsing="false" onAction="#exitGame" prefHeight="44.0" prefWidth="109.0" styleClass="exit" text="EXIT">
+         <font>
+            <Font name="Bauhaus 93" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="34.0" layoutY="53.0" prefHeight="31.0" prefWidth="153.0" text="Player BLUE:" textAlignment="CENTER" textFill="#0004ff">
+         <font>
+            <Font name="Bauhaus 93" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="53.0" prefHeight="31.0" prefWidth="153.0" text="Player RED:" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="Bauhaus 93" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="168.0" layoutY="147.0" mnemonicParsing="false" onAction="#saveNames" prefHeight="50.0" prefWidth="126.0" styleClass="save" text="SAVE">
+         <font>
+            <Font name="Bauhaus 93" size="27.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="34.0" layoutY="375.0" mnemonicParsing="false" onAction="#scoreBoard" prefHeight="44.0" prefWidth="153.0" styleClass="score" text="SCOREBOARD">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="137.0" layoutY="14.0" prefHeight="18.0" prefWidth="186.0" text="Creator: Parókai Dominik">
+         <font>
+            <Font name="Bauhaus 93" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
