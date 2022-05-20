@@ -1,2 +1,3 @@
 # Szoftver
-Hello mutker
+RED vs BLUE
+2 players game
