@@ -1,0 +1,15 @@
+game\Boardmodel\GameModel.class
+game\Controllers\ScoreBoard.class
+game\Boardmodel\Position.class
+game\Controllers\GameController.class
+game\Controllers\GameController$SelectionPhase.class
+game\PlayerManagement\PlayerStats.class
+game\PlayerManagement\Player.class
+game\Boardmodel\PieceType.class
+game\Controllers\MenuController.class
+game\Boardmodel\MoveDirection.class
+game\Boardmodel\Piece.class
+game\Boardmodel\Direction.class
+game\Controllers\GameApplication.class
+game\Controllers\GameController$1.class
+game\Main.class
